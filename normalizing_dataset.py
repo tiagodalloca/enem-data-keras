@@ -50,9 +50,12 @@ for i, c in enumerate(chunks):
                     mean = np.mean(ns)
                     mmax = np.max(ns)
                     mmin = np.min(ns)
-                    c[k] = c[k].apply(lambda x: (x - mean) / (mmax - mmin)
-                                      if isinstance(x, numbers.Number)
-                                      and not math.isnan(x) else 0)
+                    if mmax != mmin:
+                        c[k] = c[k].apply(lambda x: (x - mean) / (mmax - mmin)
+                                          if isinstance(x, numbers.Number)
+                                          and not math.isnan(x) else 0)
+                    else:
+                        c[k] = c[k].apply(lambda x: 0)
         else:
                 c = c.drop(k, axis=1)
     c = c.dropna()

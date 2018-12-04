@@ -1,7 +1,5 @@
-
 /part0000 written, 7202 entries added.
 /part0001 written, 7177 entries added.
-sys:1: DtypeWarning: Columns (82,84,86,88,104,109,120,144) have mixed types. Specify dtype option on import or set low_memory=False.
 /part0002 written, 7152 entries added.
 /part0003 written, 7242 entries added.
 /part0004 written, 7150 entries added.
@@ -23,11 +21,8 @@ sys:1: DtypeWarning: Columns (82,84,86,88,104,109,120,144) have mixed types. Spe
 /part0020 written, 7288 entries added.
 /part0021 written, 7243 entries added.
 /part0022 written, 7316 entries added.
-sys:1: DtypeWarning: Columns (82,84,86,88,120,144) have mixed types. Specify dtype option on import or set low_memory=False.
 /part0023 written, 7312 entries added.
-sys:1: DtypeWarning: Columns (82,84,86,88,120) have mixed types. Specify dtype option on import or set low_memory=False.
 /part0024 written, 7332 entries added.
-sys:1: DtypeWarning: Columns (82,84,86,88,104,109,120) have mixed types. Specify dtype option on import or set low_memory=False.
 /part0025 written, 7360 entries added.
 /part0026 written, 7312 entries added.
 /part0027 written, 7698 entries added.
@@ -242,10 +237,8 @@ sys:1: DtypeWarning: Columns (82,84,86,88,104,109,120) have mixed types. Specify
 /part0236 written, 7217 entries added.
 /part0237 written, 7258 entries added.
 /part0238 written, 7251 entries added.
-sys:1: DtypeWarning: Columns (104,109) have mixed types. Specify dtype option on import or set low_memory=False.
 /part0239 written, 7311 entries added.
 /part0240 written, 7289 entries added.
-sys:1: DtypeWarning: Columns (144) have mixed types. Specify dtype option on import or set low_memory=False.
 /part0241 written, 7225 entries added.
 /part0242 written, 7233 entries added.
 /part0243 written, 7101 entries added.
@@ -263,7 +256,6 @@ sys:1: DtypeWarning: Columns (144) have mixed types. Specify dtype option on imp
 /part0255 written, 7336 entries added.
 /part0256 written, 7262 entries added.
 /part0257 written, 7340 entries added.
-sys:1: DtypeWarning: Columns (104,109,144) have mixed types. Specify dtype option on import or set low_memory=False.
 /part0258 written, 7263 entries added.
 /part0259 written, 7261 entries added.
 /part0260 written, 7328 entries added.
